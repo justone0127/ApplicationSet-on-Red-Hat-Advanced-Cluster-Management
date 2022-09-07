@@ -76,7 +76,7 @@ GitOps를 구성하기 위해 Red Hat OpenShift Container Platform GitOps Operat
 
 - ManagedClusterSet binding에 사용되는 네임스페이스에서 사용자 지정 리소스를 생성하여 OpenShift GitOps Operator 인스턴스에 등록할 배치 사용자 리소스 생성
 
-  ==ACM에서 GitOps Operator Instance로 등록해서 사용할 리소스==
+  **ACM에서 GitOps Operator Instance로 등록해서 사용할 리소스**
 
   ```yaml
   cat << EOF > managedcluster-argoset.yaml
